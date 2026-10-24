@@ -707,7 +707,7 @@ function updateModalHeartButton(isLiked) {
   button.textContent = isLiked ? "❤️ 저장됨" : "🤍 하트 꾹";
 }
 
-// 쿠폰 렌더링
+// 쿠폰 렌더
 function renderMemos() {
   const grid = document.getElementById("memoGrid");
   grid.innerHTML = "";
